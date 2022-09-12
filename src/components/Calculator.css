@@ -1,0 +1,75 @@
+button{
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 2em;
+    margin: 0.3em;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.wrapper{
+    background-color: black;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.cw{
+    color: white;
+}
+
+.orange{
+    background-color: #ff9500;
+}
+
+.gray{
+    background-color: #505050;
+}
+
+.zero{
+    width: 6.75em;
+    text-align: left;
+    padding-left: 1.25em;
+}
+
+.result{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: .5em;
+    font-size: 3.5em;
+}
+
+.old{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1em;
+    font-size: 2em;
+    color: #dabdbd;
+}
+
+
+@media screen and (max-width: 600px) and (min-width: 350px) {
+    button{
+        width: 2.25em;
+        height: 2.25em;
+    }
+
+    .zero{
+        width: 5.1em;
+    }
+
+    .esq{
+        margin-left: 1.5em;
+    }
+
+    .result{
+        margin-right: .75em;
+    }
+
+    .old{
+        margin-right: 1.5em;
+    }
+  }
